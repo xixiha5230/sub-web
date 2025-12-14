@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     image: subweb:latest
     ports:
-      - "5238:80"
+      - "5239:80"
     restart: unless-stopped
     env_file:
       - .env
